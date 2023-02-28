@@ -12,6 +12,7 @@ $color-white: hsl(0, 0%, 100%)
 $color-pale-blue: hsl(221, 100%, 96%)
 $color-light-lavender: hsl(241, 100%, 89%)
 $color-dark-gray-blue: hsl(224, 30%, 27%)
+$color-gray: #98989a
 // Gradients
 $color-light-slate-blue: hsl(252, 100%, 67%)
 $color-light-royal-blue: hsl(241, 81%, 54%)
@@ -38,7 +39,7 @@ $color-persian-blue: hsla(241, 72%, 46%, 0)
   box-shadow: 0 14px 18px 13px $color-pale-blue
   
   @media screen and (min-width: 1023px)
-    max-width: 42rem
+    max-width: 40rem
     flex-direction: row
     border-radius: 30px
 
@@ -59,6 +60,8 @@ $color-persian-blue: hsla(241, 72%, 46%, 0)
   @media screen and (min-width: 1023px)
     border-top-left-radius: 30px
     border-top-right-radius: 30px
+    padding-top: 1px
+    padding-bottom: 1px
 
   .results__title
     color: $color-light-lavender
@@ -120,10 +123,14 @@ $color-persian-blue: hsla(241, 72%, 46%, 0)
     padding-top: 13px
     padding-bottom: 13px
     border-radius: 30px
+
+    @media screen and (min-width: 1023px)
+      margin-top: 20px
+      margin-bottom: 20px
     
     &--bg
       &-primary
-        color: $color-pale-blue
+        color: $color-white
         background-color: $color-dark-gray-blue
         
         &:hover
@@ -169,5 +176,5 @@ $color-persian-blue: hsla(241, 72%, 46%, 0)
           color: $color-cobalt-blue
     
     .item__ratingtotal
-      color: $color-light-lavender
+      color: $color-gray
       
