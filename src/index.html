@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="../node_modules/modern-css-reset/dist/reset.css">
+  <link rel="stylesheet" href="styles.sass">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="results">
+      <section class="results__result">
+        <h3 class="results__title">Your Result</h3>
+        <div class="results__score">
+          <h1 class="results__value">76</h1>
+          <p class="results__total">of 100</p>
+        </div>
+        <div class="results__description">
+          <h2 class="results__subtitle">Great</h2>
+          <p class="results__text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </section>
+      <section class="results__summary">
+        <h2 class="results__title">Summary</h2>
+        <div class="results__items">
+          <article class="results__item results__item--bg-red">
+            <div class="item__block">
+              <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+              <h3 class="item__title item__title--color-red">Reaction</h3>
+            </div>
+            <p>80 <span class="item__ratingtotal">/ 100</span></p>
+          </article>
+          <article class="results__item results__item--bg-yellow">
+            <div class="item__block">
+              <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+              <h3 class="item__title item__title--color-yellow">Memory</h3>
+            </div>
+            <p>92 <span class="item__ratingtotal">/ 100</span></p>
+          </article>
+          <article class="results__item results__item--bg-green">
+            <div class="item__block">
+              <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
+              <h3 class="item__title item__title--color-green">Verbal</h3>
+            </div>
+            <p>61 <span class="item__ratingtotal">/ 100</span></p>
+          </article>
+          <article class="results__item results__item--bg-blue">
+            <div class="item__block">
+              <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+              <h3 class="item__title item__title--color-blue">Visual</h3>
+            </div>
+            <p>72 <span class="item__ratingtotal">/ 100</span></p>
+          </article>
+        </div>
+        <button type="button" class="results__button results__button--bg-primary">Continue</button>
+      </section>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">slightlyfunctional</a>.
+  </div>
+</body>
+</html>

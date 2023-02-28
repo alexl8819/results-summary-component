@@ -1,0 +1,17 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url ./ --dist-dir public"
+  },
+  "author": "slightlyfunctional",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "modern-css-reset": "^1.4.0",
+    "parcel": "^2.8.3"
+  }
+}
