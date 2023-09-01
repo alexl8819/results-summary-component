@@ -11,7 +11,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-- [Author](#author)
 
 ## Overview
 
@@ -24,11 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Mobile Screenshot](./screenshots/mobile.png)
+![Desktop Screenshot](./screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Results Summary Component](https://slightlyfunctional.gitlab.io/results-summary-component/)
+- Live Site URL: [Results Summary Component](https://alexl8819.github.io/results-summary-component/)
 
 ## My process
 
@@ -43,9 +43,4 @@ Users should be able to:
 
 ### Continued development
 
-This small project was a challenge on based on time to completion. I estimated about 5 hours until completion, starting at roughly 6pm initializing the project, nearly completing it by 11:00pm PST. I also aimed to try it using CSS only (no frameworks) to see if i've improved my confidence in writing CSS (or Sass in this case). It is a close however there are small differences with the design spec. 
-
-## Author
-
-- Website - [slightlyfunctional.com](https://slightlyfunctional.com)
-- Frontend Mentor - [@slightlyfunctional](https://www.frontendmentor.io/profile/slightlyfunctional)
+This small project was a challenge on based on time to completion. I estimated about 5 hours until completion, starting at roughly 6pm initializing the project, nearly completing it by 11:00pm PST. I also aimed to try it using CSS only (no frameworks) to see if i've improved my confidence in writing CSS (or SCSS in this case). It is a close however there are small differences with the design spec. 
